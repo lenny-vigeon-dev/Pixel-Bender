@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm palette: Stone/Sand/Orange/Brown */
+    --background: 40 20% 97%;   /* Soft cream/stone */
+    --foreground: 24 10% 10%;   /* Dark brown/charcoal */
+
+    --primary: 24 75% 50%;      /* Burnt Orange/Terracotta */
+    --primary-foreground: 40 20% 97%;
+
+    --secondary: 40 20% 92%;    /* Darker Stone */
+    --secondary-foreground: 24 10% 10%;
+
+    --border: 40 10% 85%;
+    --input: 40 10% 85%;
+    --ring: 24 75% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Warm dark palette: Coffee/Chocolate/Amber */
+    --background: 24 10% 10%;   /* Deep brownish black */
+    --foreground: 40 20% 94%;   /* Off-white */
+
+    --primary: 24 75% 55%;      /* Brighter Orange for contrast */
+    --primary-foreground: 24 10% 10%;
+
+    --secondary: 24 15% 18%;    /* Dark brown container */
+    --secondary-foreground: 40 20% 94%;
+
+    --border: 24 15% 18%;
+    --input: 24 15% 18%;
+    --ring: 24 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
