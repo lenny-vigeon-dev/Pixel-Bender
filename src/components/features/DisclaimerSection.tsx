@@ -16,7 +16,7 @@ export const DisclaimerSection: React.FC = () => {
         </p>
       </div>
       <a
-        href="https://github.com"
+        href="https://github.com/lenny-vigeon-dev/Pixel-Bender"
         target="_blank"
         rel="noreferrer"
         className="flex items-center gap-2 px-4 py-2 bg-background border border-border rounded-md hover:bg-muted transition-colors text-sm font-medium shadow-sm"

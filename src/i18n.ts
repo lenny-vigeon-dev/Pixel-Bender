@@ -11,7 +11,7 @@ i18n
     resources: {
       en: {
         translation: {
-          title: 'Local Image Enhancer',
+          title: 'Pixel Bender',
           dragDrop: 'Drag & drop an image here, or click to select',
           uploadAnother: 'Upload another image',
           run: 'Run',
@@ -44,7 +44,7 @@ i18n
       },
       fr: {
         translation: {
-          title: 'Local Image Enhancer',
+          title: 'Pixel Bender',
           dragDrop: 'Glissez et déposez une image ici, ou cliquez pour sélectionner',
           uploadAnother: 'Charger une autre image',
           run: 'Lancer',
@@ -77,7 +77,7 @@ i18n
       },
       es: {
         translation: {
-          title: 'Mejorador de Imagen Local',
+          title: 'Pixel Bender',
           dragDrop: 'Arrastra y suelta una imagen aquí, o haz clic para seleccionar',
           uploadAnother: 'Cargar otra imagen',
           run: 'Ejecutar',
@@ -110,7 +110,7 @@ i18n
       },
       de: {
         translation: {
-          title: 'Lokaler Bildverbesserer',
+          title: 'Pixel Bender',
           dragDrop: 'Bild hierher ziehen und ablegen, oder zum Auswählen klicken',
           uploadAnother: 'Ein weiteres Bild hochladen',
           run: 'Starten',
@@ -143,7 +143,7 @@ i18n
       },
       ko: {
         translation: {
-          title: '로컬 이미지 향상기',
+          title: '픽셀 벤더',
           dragDrop: '이미지를 여기에 드래그 앤 드롭하거나 클릭하여 선택하세요',
           uploadAnother: '다른 이미지 업로드',
           run: '실행',

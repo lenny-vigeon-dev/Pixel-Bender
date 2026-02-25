@@ -70,7 +70,7 @@ export const Header: React.FC = () => {
 
           {/* Github Link */}
           <a
-            href="https://github.com"
+            href="https://github.com/Linnchoeuh"
             target="_blank"
             rel="noreferrer"
             className="text-foreground/60 hover:text-foreground transition-colors"

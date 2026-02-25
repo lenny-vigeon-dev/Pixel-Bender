@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
         </p>
         <div className="flex items-center gap-4">
            <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/lenny-vigeon/"
             target="_blank"
             rel="noreferrer"
              className="text-muted-foreground hover:text-foreground transition-colors"
@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
             <Linkedin className="h-4 w-4" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Linnchoeuh"
             target="_blank"
             rel="noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
             <Github className="h-4 w-4" />
           </a>
           <a
-             href="#"
+             href="https://www.lenny-vigeon.dev/"
              target="_blank"
              rel="noreferrer"
              className="text-muted-foreground hover:text-foreground transition-colors"
